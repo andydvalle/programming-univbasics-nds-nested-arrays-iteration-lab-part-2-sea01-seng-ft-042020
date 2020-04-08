@@ -10,6 +10,7 @@ def find_min_in_nested_arrays(src)
     element_index = 0 
     smallest_number_array = []
     smallest_number = src[row_index][element_index]
+    current_index = src[row_index][element_index]
     while element_index < src[row_index].length do
       binding.pry
       if smallest_number > src[row_index][element_index]
