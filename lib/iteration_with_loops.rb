@@ -14,7 +14,7 @@ def find_min_in_nested_arrays(src)
       current_number = src[row_index][element_index]
       binding.pry
       if smallest_number > current_number
-        smallest_number = src[row_index][element_index]
+        smallest_number = current_number
         smallest_number_array << smallest_number
       end
       element_index += 1 
