@@ -13,6 +13,7 @@ def find_min_in_nested_arrays(src)
     while element_index < src[row_index].length do
       current_number = src[row_index][element_index]
       if smallest_number > current_number
+        binding.pry
         smallest_number = current_number
         smallest_number_array << smallest_number
       end
